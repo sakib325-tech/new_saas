@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from '@/lib/utils';
-import { ImageIcon, Images, LayoutDashboard, MessageCircle, MessageSquare, Settings, TableOfContentsIcon, TvMinimalPlay, VideoIcon } from 'lucide-react';
+import {  Images, LayoutDashboard,  MessageSquare, Settings, TableOfContentsIcon, TvMinimalPlay,  } from 'lucide-react';
 import { Montserrat } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';

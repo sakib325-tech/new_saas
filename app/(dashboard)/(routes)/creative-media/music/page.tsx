@@ -3,7 +3,7 @@ import axios from "axios";
 import * as z from "zod";
 import Heading from "@/components/heading";
 import { MessageSquare } from "lucide-react";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { formSchema } from "./constants";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -11,7 +11,7 @@ import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useRouter } from "next/navigation";
-import { ChatCompletionUserMessageParam } from "openai/resources/index.mjs";
+
 import Empty from "@/components/empty";
 import Loader from "@/components/Loader";
 
